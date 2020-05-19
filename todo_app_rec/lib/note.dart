@@ -10,6 +10,8 @@ class Note{
   final String description;
   @HiveField(2)
   final DateTime date;
+  @HiveField(3)
+  final int status;
 
-  Note(this.title, this.description, this.date);
+  Note(this.title, this.description, this.date, this.status);
 }
